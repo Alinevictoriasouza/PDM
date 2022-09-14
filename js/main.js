@@ -1,4 +1,4 @@
-const apiKey = 'e531a884462e463aa1ccdb3178ddcef'
+const apiKey = 'e531a884462e463aa1ccd0b3178ddcef'
 let url = `https://newsapi.org/v2/everything?q=tesla&from=2022-08-14&sortBy=publishedAt&apiKey=${apiKey}`;
 const main = document.querySelector('main');
 
@@ -16,7 +16,7 @@ async function postNews() {
     main.innerHTML = data.articles.map(createArticle).join('/n');
 }
 
-function createArticles(article){
+function createArticle(article){
     return `
         <div class = "article">
         <a href="${article.url}" target="_blank">
