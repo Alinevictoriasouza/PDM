@@ -1,0 +1,22 @@
+{
+  "name": "pdm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alinevictoriasouza/PDM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alinevictoriasouza/PDM/issues"
+  },
+  "homepage": "https://github.com/Alinevictoriasouza/PDM#readme",
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
